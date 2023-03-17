@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;    
+}
+
+.iconMenu {
+    display: flex;
+    align-items: center;
+}
+  
+.iconMenu a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+  
+.iconMenu a img {
+    margin-right: 5px;
+}
+
+.iconMenu:first-child {
+    margin-right: 20px; 
+}
+
+.login{
+    justify-content: flex-end;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+.dropdown{
+    width: 13.5rem;
+    position: fixed;
+    background-color: rgb(128, 34, 34);
+}
+
+.dropdowndChild{
+    display: none;
+}
+
+.dropdowndChild.show{
+    display: block;
+}
+
+.logo{
+    width: 4rem;
+    margin-left: 10rem;
+    margin-top: -3.8rem;
+}
+
+.carShopping{
+    margin-left: 18rem;
+    margin-top: -3.2rem;
+}
+
+.buttonMenu{
+    margin-top: 1rem;
+}
+
+.search{
+    margin-left: 21rem;
+    margin-top: -2.4rem;
+}
+
