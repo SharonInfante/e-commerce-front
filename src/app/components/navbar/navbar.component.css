@@ -30,7 +30,8 @@ nav{
 .dropdown{
     width: 13.5rem;
     position: fixed;
-    background-color: #e9ede4;
+    background-color: #e9ede4fa;
+    z-index: 1000;
 }
 
 .dropdowndChild{

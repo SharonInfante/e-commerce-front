@@ -9,6 +9,6 @@ export class ButtonsComponent {
   @Input() name: string;
 
   constructor(){
-    this.name = 'Button'
+    this.name = "button"
   }
 }

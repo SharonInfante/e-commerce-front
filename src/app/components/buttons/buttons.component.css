@@ -1,3 +1,13 @@
 .btn{
-    background: radial-gradient(circle, rgba(113,154,100,1) 0%, rgba(113,154,100,0.6615896358543417) 100%);
+    background: radial-gradient(592px at 48.2% 30%,#739B66  0%, #accca232 75%);
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    margin: auto;
+}
+
+input{
+    display: flex;
+    justify-content: center;
 }

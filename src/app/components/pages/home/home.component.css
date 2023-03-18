@@ -12,6 +12,10 @@
     background-color: #FDFBFB;
 }
 
+.homeContainer img{
+    position: static;
+}
+
 .titleHome{
     font-weight: bold;
     color: #482A06;
