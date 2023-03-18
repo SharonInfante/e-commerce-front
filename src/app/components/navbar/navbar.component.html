@@ -1,84 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./navbar.component.css">
-    <title>Document</title>
-</head>
-<body>
-    <nav>
-        <div>
-            <button class="buttonMenu" (click)="toggleDropdown()">
-                <img src="../../assets/icons/menu.svg" alt="menu">
-            </button>
-            <div class="dropdown">
-                <ul class="dropdowndChild" [ngClass]="{'show': isDropdownOpen}">
-                    <li class="sidebar">    
-                        <div class="iconMenu">
-                            <a href="">
-                                <img src="../../../assets/icons/home.svg" alt="Inicio">
-                                <p>Inicio</p>
-                            </a>
-                        </div>
-                        <div class="iconMenu">
-                            <a href="">
-                                <img src="../../../assets/icons/productsMenu.svg" alt="Productos">
-                                <p>Productos</p>
-                            </a>
-                        </div>
-                        <div class="iconMenu">
-                            <a href="">
-                                <img src="../../../assets/icons/aboutUsMenu.svg" alt="Nosotros">
-                                <p>Nosotros</p>
-                            </a>
-                        </div>
-                        <div class="iconMenu">
-                            <a href="">
-                                <img src="../../../assets/icons/questionsMenu.svg" alt="Preguntas Frecuentes">
-                                <p>Preguntas Frecuentes</p>
-                            </a>
-                        </div>
-                        <div class="iconMenu">
-                            <a href="">
-                                <img src="../../../assets/icons/terms.svg" alt="Términos y Condiciones">
-                                <p>Términos y Condiciones</p>
-                            </a>
-                        </div>
-                        <div class="iconMenu">
-                            <a href="">
-                                <img src="../../../assets/icons/carShopping.svg" alt="Mi Carrito">
-                                <p>Mi carrito</p>
-                            </a>
-                        </div>
-                        <div class="iconMenu">
-                            <a href="">
-                                <img src="../../../assets/icons/addProduct.svg" alt="Añadir Producto">
-                                <p>Añadir Producto</p>
-                            </a>
-                        </div>
-                        <hr>
-                        <div class="iconMenu login">
-                            <a href="">
-                                <img src="../../../assets/icons/user.svg" alt="Inicio de Sesión">
-                                <p>Iniciar Sesión</p>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+<nav>
+    <div>
+        <button class="buttonMenu" (click)="toggleDropdown()">
+            <img src="../../assets/icons/menu.svg" alt="menu">
+        </button>
+        <div class="dropdown">
+            <ul class="dropdowndChild" [ngClass]="{'show': isDropdownOpen}">
+                <li class="sidebar">    
+                    <div class="iconMenu">
+                        <a href="">
+                            <img src="../../../assets/icons/home.svg" alt="Inicio">
+                            <p>Inicio</p>
+                        </a>
+                    </div>
+                    <div class="iconMenu">
+                        <a href="">
+                            <img src="../../../assets/icons/productsMenu.svg" alt="Productos">
+                            <p>Productos</p>
+                        </a>
+                    </div>
+                    <div class="iconMenu">
+                        <a href="">
+                            <img src="../../../assets/icons/aboutUsMenu.svg" alt="Nosotros">
+                            <p>Nosotros</p>
+                        </a>
+                    </div>
+                    <div class="iconMenu">
+                        <a href="">
+                            <img src="../../../assets/icons/questionsMenu.svg" alt="Preguntas Frecuentes">
+                            <p>Preguntas Frecuentes</p>
+                        </a>
+                    </div>
+                    <div class="iconMenu">
+                        <a href="">
+                            <img src="../../../assets/icons/terms.svg" alt="Términos y Condiciones">
+                            <p>Términos y Condiciones</p>
+                        </a>
+                    </div>
+                    <div class="iconMenu">
+                        <a href="">
+                            <img src="../../../assets/icons/carShopping.svg" alt="Mi Carrito">
+                            <p>Mi carrito</p>
+                        </a>
+                    </div>
+                    <div class="iconMenu">
+                        <a href="">
+                            <img src="../../../assets/icons/addProduct.svg" alt="Añadir Producto">
+                            <p>Añadir Producto</p>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="iconMenu login">
+                        <a href="">
+                            <img src="../../../assets/icons/user.svg" alt="Inicio de Sesión">
+                            <p>Iniciar Sesión</p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="logo">
-            <img src="../../../assets/image/logo.png" alt="logo">
-        </div>
-        <div class="carShopping">
-            <img src="../../../assets/icons/car.svg" alt="Carrito de Compras">
-        </div>
-        <div class="search">
-            <img src="../../../assets/icons/search.svg" alt="Buscador">
-        </div>
-    </nav>
-
-</body>
-</html>
+    </div>
+    <div class="logo">
+        <img src="../../../assets/image/logo.png" alt="logo">
+    </div>
+    <div class="carShopping">
+        <img src="../../../assets/icons/car.svg" alt="Carrito de Compras">
+    </div>
+    <div class="search">
+        <img src="../../../assets/icons/search.svg" alt="Buscador">
+    </div>
+</nav>
