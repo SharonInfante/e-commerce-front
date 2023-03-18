@@ -1,10 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;    
+nav{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
 }
-
 .iconMenu {
     display: flex;
     align-items: center;
@@ -33,7 +30,7 @@
 .dropdown{
     width: 13.5rem;
     position: fixed;
-    background-color: rgb(128, 34, 34);
+    background-color: #e9ede4;
 }
 
 .dropdowndChild{
@@ -46,13 +43,13 @@
 
 .logo{
     width: 4rem;
-    margin-left: 10rem;
-    margin-top: -3.8rem;
+    grid-column: 3/4;
 }
 
 .carShopping{
-    margin-left: 18rem;
-    margin-top: -3.2rem;
+    grid-column: 4/5;
+    margin-left: 2.5rem;
+    margin-top: 0.7rem;
 }
 
 .buttonMenu{
@@ -60,7 +57,7 @@
 }
 
 .search{
-    margin-left: 21rem;
-    margin-top: -2.4rem;
+   grid-column: 5/6;
+   margin-left: 1rem;
+   margin-top: 0.7rem;
 }
-
