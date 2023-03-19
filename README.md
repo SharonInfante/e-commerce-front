@@ -1,27 +1,28 @@
-# AngularIndividualProject
+### Angular Individual Project Final
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.3.
+# MI CAMPO :deciduous_tree:
+***
+## Objetivo :brain:
+Emprendimiento “Mi Campo”, dedicados a la venta de alimentos en tienda física. Sus principales productos van dirigidos a la alimentación saludable con un público interesado y consciente de la importancia de cuidar su salud, cuerpo y mente. El principal objetivo es posicionarse a nivel online, para dar aumento a sus ventas a través de una e-commerce
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Build status :page_facing_up:
+[![Build Status](https://travis-ci.org/user/repo.svg?branch=master)](https://github.com/Natalia-irlo/popders_music.git)
+[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v/stable.png)](https://github.com/Natalia-irlo/popders_music.git)
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg)](https://github.com/Natalia-irlo/popders_music.git)
+[![Type Coverage](https://shepherd.dev/github/sebastianbergmann/phpunit/coverage.svg)](https://github.com/Natalia-irlo/popders_music.git)
+[![codecov](https://codecov.io/gh/sebastianbergmann/phpunit/branch/main/graph/badge.svg)](https://github.com/Natalia-irlo/popders_music.git)
 
-## Code scaffolding
+## Tech/framework used :computer:
+* **Angular** - utilizado para el frontend de la web
+* **CSS** - utilizado para estilizar la interfaz de usuario
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación :mechanic:
+1. Crear un directorio en su ordenador para almacenar el proyecto.
+2. ***$ git clone https://github.com/SharonInfante/e-commerce-front.git***
 
-## Build
+## ¿Cómo utilizar? :key:
+* En el directorio del proyecto, ejecute 
+    ***$ npm install***, luego:
+    ***$ ng serve***
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
