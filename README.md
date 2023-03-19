@@ -19,7 +19,8 @@ Emprendimiento “Mi Campo”, dedicados a la venta de alimentos en tienda físi
 
 ## Instalación :mechanic:
 1. Crear un directorio en su ordenador para almacenar el proyecto.
-2. ***$ git clone https://github.com/SharonInfante/e-commerce-front.git***
+2. *Frontend* ***$ git clone https://github.com/SharonInfante/e-commerce-front.git***
+3. *Backendend* ***$ https://github.com/SharonInfante/e-commerce-back.git***
 
 ## ¿Cómo utilizar? :key:
 * En el directorio del proyecto, ejecute 
