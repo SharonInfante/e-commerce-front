@@ -3,29 +3,29 @@
         <img src="../../../../assets/image/background-semillas.png" alt="Imagen de Semillas" class="imgSeed">
     </div>
 
-    <form action="" class="formAddProduct">
+    <form (ngSubmit)="onSubmit()" class="formAddProduct">
         <h1 [textContent]="titleProduct" class="titleForm"></h1>
         <div class="containerInputAdd">
             <div class="inputAddProduct">
                 <img src="../../../../assets/icons/nameProduct.svg" alt="Nombre del Producto">
-                <input type="text" placeholder="Nombre del Producto" class="input">
+                <input type="text" placeholder="Nombre del Producto" class="input" name="product_name" [(ngModel)]="newProduct.product_name">
             </div>
             <div class="inputAddProduct password">
                 <img src="../../../../assets/icons/codeProduct.svg" alt="Código">
-                <input type="text" placeholder="Código" class="input">
+                <input type="text" placeholder="Código" class="input" name="code" [(ngModel)]="newProduct.code">
             </div>
             <div class="inputAddProduct password">
                 <img src="../../../../assets/icons/priceProduct.svg" alt="Precio">
-                <input type="text" placeholder=" Precio" class="input">
+                <input type="text" placeholder=" Precio" class="input" name="price" [(ngModel)]="newProduct.price">
             </div>
             <div class="inputAddProduct password">
                 <img src="../../../../assets/icons/description.svg" alt="Descripción">
-                <textarea type="text" placeholder="Descripción" class="inputTextArea"></textarea>
+                <textarea type="text" placeholder="Descripción" class="inputTextArea" name="description" [(ngModel)]="newProduct.description"></textarea>
             </div>
             <div class="inputAddProduct password">
-                <input type="file" placeholder="Insertar Imagen" class="input inputImage">
+                <input type="file" placeholder="Insertar Imagen" class="input inputImage"name="image" [(ngModel)]="newProduct.image">
             </div>
         </div>
-        <app-buttons [name]="name"></app-buttons>
+        <app-buttons type="submit" [name]="name" (click)=" addProduct()" ></app-buttons>
     </form>
 </div>

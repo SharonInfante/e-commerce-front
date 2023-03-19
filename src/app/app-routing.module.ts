@@ -18,8 +18,8 @@ const routes: Routes = [
   {path: 'iniciar-sesion', component: SesisonComponent},
   {path: 'registro', component: RegisterComponent},
   {path: 'añadir-producto', component: AddProductComponent},
-  {path: 'descripcion-producto', component:DescriptionProductComponent},
-  {path: 'editar-producto', component:EditProductComponent}
+  {path: 'descripcion-producto/:id', component:DescriptionProductComponent},
+  {path: 'editar-producto/:id', component:EditProductComponent}
 ];
 
 @NgModule({

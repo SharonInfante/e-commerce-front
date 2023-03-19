@@ -7,16 +7,16 @@
         <h1 class="titleHome">Productos</h1>
     </div>
 
-    <div class="cardContainer">
+    <div class="cardContainer" *ngFor="let product of products">
         <div class="w-40">
-            <a routerLink="descripcion-producto">
+            <a routerLink="descripcion-producto/{{product.id}}">
                 <img class="rounded-t-lg" src="../../../../assets/image/mermeladas.jpeg" alt="Productos" />
             </a>
             <div class="p-2 card1">
-                <a href="#">
-                    <h5 class="font-bold tracking-tight text-gray-900 dark:text-white">Mermelada</h5>
+                <a routerLink="descripcion-producto/{{product.id}}">
+                    <h5 class="font-bold tracking-tight text-gray-900 dark:text-white">{{product.product_name}}</h5>
                 </a>
-                <p class="mb-1 font-normal text-gray-700 dark:text-gray-400">$920.00</p>
+                <p class="mb-1 font-normal text-gray-700 dark:text-gray-400">${{product.price}}</p>
                 <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-semibold text-black btnAddProduct">
                     Añadir
                 </a>

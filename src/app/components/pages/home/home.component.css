@@ -5,7 +5,9 @@
 }
 
 .cardContainer{
-    padding-left: 5%;
+   display: flex;
+   justify-content: center;
+    padding-bottom: 8%;
 }
 
 .homeContainer{
