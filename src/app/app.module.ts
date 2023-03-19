@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { RegisterComponent } from './components/pages/register/register.componen
 import { AddProductComponent } from './components/pages/add-product/add-product.component';
 import { EditProductComponent } from './components/pages/edit-product/edit-product.component';
 import { DescriptionProductComponent } from './components/pages/description-product/description-product.component';
+import { ProductosService } from './service/productos.service';
 
 @NgModule({
   declarations: [
@@ -30,13 +32,14 @@ import { DescriptionProductComponent } from './components/pages/description-prod
     RegisterComponent,
     AddProductComponent,
     EditProductComponent,
-    DescriptionProductComponent
+    DescriptionProductComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ProductosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
